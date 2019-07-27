@@ -1,7 +1,7 @@
-N,Q=map(int,input().split())
-l=list(map(int,input().split()[:N]))
+n,q=map(int,input().split())
+l=list(map(int,input().split()[:n]))
 final=[]
-for i in range (Q):
+for i in range (q):
     s=list(map(int,input().split())) 
     final.append(s)
 for j in final:
